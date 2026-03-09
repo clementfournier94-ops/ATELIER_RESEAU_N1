@@ -52,6 +52,7 @@ Vous avez vu dans cette séquence comment créer des secrets GiHUB afin de mettr
 🗺️ Séquence 4 : OSI (Open Systems Interconnection)
 ---------------------------------------------------
 Vous pouvez observez les différentes couches OSI sur votre site **{site}.pythonanywhere.com/osi**  
+  
 **Exercice 1 : Définissez les termes suivants (Répondre directement dans GitHub)**    
 🔹Un protocole, 
 🔹Une entité protocolaire,  
@@ -64,6 +65,7 @@ Vous pouvez observez les différentes couches OSI sur votre site **{site}.python
 🗺️ Séquence 5 : Retour sur le protocole DHCP
 ---------------------------------------------------
 Vous pouvez observez le protocole DHCP sur votre site **{site}.pythonanywhere.com/dhcp**  
+  
 **Exercice 2 : Créer une image montrant l’encapsulation des couches suivantes**    
 _Collez votre image ici_ 
   
