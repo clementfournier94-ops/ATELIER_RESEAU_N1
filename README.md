@@ -60,19 +60,19 @@ Vous pouvez observez les différentes couches OSI sur votre site **{site}.python
 * Une primitive de service,  
 * Une Service Data Unit (SDU) par rapport à une PDU  
 * Un point d'accès à un service SAP (Service Access Point)
+________________________________________
 
-
-Un protocole est un ensemble de règles communes que deux machines de même niveau (même couche) doivent respecter pour se comprendre lorsqu'elles communiquent. Dans les réseaux, le protocole définit la forme des messages échangés, leur ordre, et la façon de gérer les erreurs.
+* Un protocole est un ensemble de règles communes que deux machines de même niveau (même couche) doivent respecter pour se comprendre lorsqu'elles communiquent. Dans les réseaux, le protocole définit la forme des messages échangés, leur ordre, et la façon de gérer les erreurs.
 ________________________________________
-Une entité protocolaire est le "représentant" d'une couche dans un système. C'est le composant logiciel (ou matériel) qui applique concrètement les règles du protocole. 
+* Une entité protocolaire est le "représentant" d'une couche dans un système. C'est le composant logiciel (ou matériel) qui applique concrètement les règles du protocole. 
 ________________________________________
-Service Un service désigne ce qu'une couche offre à la couche juste au-dessus d'elle. La couche inférieure travaille "en coulisse" pour rendre un service à celle qui l'utilise, sans que cette dernière ait besoin de savoir comment ça fonctionne en détail. 
+* Un service désigne ce qu'une couche offre à la couche juste au-dessus d'elle. La couche inférieure travaille "en coulisse" pour rendre un service à celle qui l'utilise, sans que cette dernière ait besoin de savoir comment ça fonctionne en détail. 
 ________________________________________
-Primitive de service Une primitive de service est une action élémentaire qui permet d'utiliser ou de déclencher un service. Ce sont en quelque sorte les "boutons" disponibles pour interagir avec la couche en dessous. Il en existe quatre : la requête (je demande un service), l'indication (j'informe qu'un événement s'est produit), la réponse (je réponds à une indication) et la confirmation (je confirme que la requête a bien été traitée).
+* Une primitive de service est une action élémentaire qui permet d'utiliser ou de déclencher un service. Ce sont en quelque sorte les "boutons" disponibles pour interagir avec la couche en dessous. Il en existe quatre : la requête (je demande un service), l'indication (j'informe qu'un événement s'est produit), la réponse (je réponds à une indication) et la confirmation (je confirme que la requête a bien été traitée).
 ________________________________________
 SDU vs PDU :  la SDU (Service Data Unit) est le bloc de données transmis par la couche N+1 à la couche N. La couche N ajoute ses propres informations de contrôle (PCI — Protocol Control Information, typiquement un en-tête) pour former la PDU (Protocol Data Unit), qui est l'unité réellement transmise entre entités de même niveau. La PDU de la couche N devient elle-même la SDU de la couche N−1. 
 ________________________________________
-SAP (Service Access Point) Le SAP est le point de contact entre deux couches adjacentes, l'endroit précis où une couche peut demander les services de celle qui est en dessous. Il identifie de façon unique l'endroit où la couche N+1 peut solliciter les services de la couche N. Dans TCP/IP, les numéros de port sont un exemple concret de SAP (ils identifient quel processus applicatif utilise le service de transport).
+Le SAP (Service Access Point) est le point de contact entre deux couches adjacentes, l'endroit précis où une couche peut demander les services de celle qui est en dessous. Il identifie de façon unique l'endroit où la couche N+1 peut solliciter les services de la couche N. Dans TCP/IP, les numéros de port sont un exemple concret de SAP (ils identifient quel processus applicatif utilise le service de transport).
 
 
 ---------------------------------------------------
