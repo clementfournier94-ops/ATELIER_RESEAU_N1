@@ -70,9 +70,9 @@ ________________________________________
 ________________________________________
 * Une primitive de service est une action élémentaire qui permet d'utiliser ou de déclencher un service. Ce sont en quelque sorte les "boutons" disponibles pour interagir avec la couche en dessous. Il en existe quatre : la requête (je demande un service), l'indication (j'informe qu'un événement s'est produit), la réponse (je réponds à une indication) et la confirmation (je confirme que la requête a bien été traitée).
 ________________________________________
-SDU vs PDU :  la SDU (Service Data Unit) est le bloc de données transmis par la couche N+1 à la couche N. La couche N ajoute ses propres informations de contrôle (PCI — Protocol Control Information, typiquement un en-tête) pour former la PDU (Protocol Data Unit), qui est l'unité réellement transmise entre entités de même niveau. La PDU de la couche N devient elle-même la SDU de la couche N−1. 
+* SDU vs PDU :  la SDU (Service Data Unit) est le bloc de données transmis par la couche N+1 à la couche N. La couche N ajoute ses propres informations de contrôle (PCI — Protocol Control Information, typiquement un en-tête) pour former la PDU (Protocol Data Unit), qui est l'unité réellement transmise entre entités de même niveau. La PDU de la couche N devient elle-même la SDU de la couche N−1. 
 ________________________________________
-Le SAP (Service Access Point) est le point de contact entre deux couches adjacentes, l'endroit précis où une couche peut demander les services de celle qui est en dessous. Il identifie de façon unique l'endroit où la couche N+1 peut solliciter les services de la couche N. Dans TCP/IP, les numéros de port sont un exemple concret de SAP (ils identifient quel processus applicatif utilise le service de transport).
+* Le SAP (Service Access Point) est le point de contact entre deux couches adjacentes, l'endroit précis où une couche peut demander les services de celle qui est en dessous. Il identifie de façon unique l'endroit où la couche N+1 peut solliciter les services de la couche N. Dans TCP/IP, les numéros de port sont un exemple concret de SAP (ils identifient quel processus applicatif utilise le service de transport).
 
 
 ---------------------------------------------------
