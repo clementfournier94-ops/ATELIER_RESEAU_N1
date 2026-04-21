@@ -81,7 +81,8 @@ ________________________________________
 Vous pouvez observez le protocole DHCP sur votre site **{site}.pythonanywhere.com/dhcp**  
   
 **Exercice 2 : Créer une image montrant l’encapsulation des couches suivantes**    
-_Collez votre image ici_ 
+<img width="929" height="728" alt="image" src="https://github.com/user-attachments/assets/0920edde-bf69-490c-a711-7dbb438f9567" />
+
   
 --------------------------------------------------------------------
 🧠 Troubleshooting :
